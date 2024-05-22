@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <link rel="stylesheet" href="/css/nav.css">
+        <div class="navbar-container">
+            <a href="#" class="navbar-brand">Billing Website</a>
+            <ul class="navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Add People</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">.</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>User Management</h2>
+       
+        <div class="table-container">
+            <table class="user-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>john@example.com</td>
+                        <td>
+                            <button class="edit-btn"><i class="far fa-edit "></i></button>
+                            <button class="delete-btn"><i class="far fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td>2</td>
+                        <td>Jane Smith</td>
+                        <td>jane@example.com</td>
+                        <td>
+                            <button class="edit-btn"><i class="far fa-edit"></i></button>
+                            <button class="delete-btn"><i class="far fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="action-buttons">
+           <a href="/addUser/index.html"><button id="add-user-btn"><i class="fas fa-user-plus"></i> Add User</button> </a> 
+        </div>
+    </div>
+</body>
+</html>

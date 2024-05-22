@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.bill-header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.bill-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.bill-table th, .bill-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.bill-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.bill-table tfoot th {
+    text-align: right;
+}
+
+.bill-table tfoot th, .bill-table tfoot td {
+    font-size: 1.2em;
+    background-color: #e1f5fe;
+}
+.print-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.print-btn:hover {
+    background-color: #0056b3;
+}
